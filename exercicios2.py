@@ -1,4 +1,5 @@
-print("####### - Questao 1 - ##########")
+repet = '#'*10
+print(f"{repet} - Questao 1 - {repet}")
 
 x = int(input("Digite um número inteiro: "))
 
@@ -15,7 +16,7 @@ else:
 
 print(f"O número {x} é {resp1} e {resp2}.".format(x, resp1, resp2))
 
-print("####### - Questao 2- ##########")
+print(f"{repet} - Questao 2 - {repet}")
 
 cont = 0
 resultado = 0
@@ -28,35 +29,35 @@ while cont != n:
 
 print(resultado)
 
-print("####### - Questao 3 - ##########")
+print(f"{repet} - Questao 3 - {repet}")
 
 # for _ in range(10):
 
 #    print("Olá, mundo!")
-# print('####### - Questao3 - A  - ##########')
+# print(f"{repet} - Questao 3 - A {repet}")
 # for _ in "let's code":
 #   print("Olá, mundo!")
-# print('####### - Questao3 - B  - ##########')
+# print(f"{repet} - Questao 3 - B {repet}")
 
 # for _ in " "*10:
 #     print("Olá, mundo!")
 
-# print('####### - Questao3 - C  - ##########')
+# print(f"{repet} - Questao 3 - C {repet}")
 
 # for _ in range(10, 20, 1):
 #     print("Olá, mundo!")
 
-# print('####### - Questao3 - D  - ##########')
+# print(f"{repet} - Questao 3 - D {repet}")
 
 # for _ in [10]:
 #     print("Olá, mundo!")
 
-# print('####### - Questao3 - E  - ##########')
+# print(f"{repet} - Questao 3 - E {repet}")
 
 # for _ in [10]*10:
 #     print("Olá, mundo!")
 
-print("####### - Questao 4 - ##########")
+print(f"{repet} - Questao 4 - {repet}")
 
 lista_inicial = [10, 5, -7, 6, -42, 63, -8, -5, 13]
 
@@ -78,8 +79,8 @@ for item in lista_inicial:
 
 print(lista_final)
 
+print(f"{repet} -  Questao 5 - {repet} ")
 
-print("####### - Questao 5 - ##########")
 animais = ['gato', 'coelho', 'macaco', 'girafa']
 
 animais.remove('gato')
